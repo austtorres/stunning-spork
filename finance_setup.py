@@ -2,7 +2,8 @@
 # 
 # run this program in the command line: python finance_setup.py stockname1 stockname2 ... 
 # 
-# Known bugs: stops working after 5th stock is added to arguments list
+# Known bugs: - stops working after 5th stock is added to arguments list
+#             - potential error when no stock argumetns are passed
 
 import sys
 import pandas_datareader as pdr
